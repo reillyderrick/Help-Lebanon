@@ -16,6 +16,8 @@
 		EF952FE324E39BD1000C59F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF952FE124E39BD1000C59F0 /* LaunchScreen.storyboard */; };
 		EF952FEE24E39BD1000C59F0 /* Help_LebanonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF952FED24E39BD1000C59F0 /* Help_LebanonTests.swift */; };
 		EF952FF924E39BD1000C59F0 /* Help_LebanonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF952FF824E39BD1000C59F0 /* Help_LebanonUITests.swift */; };
+		EF95300724E472DB000C59F0 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95300624E472DB000C59F0 /* ReadViewController.swift */; };
+		EF95300924E47302000C59F0 /* SpreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF95300824E47302000C59F0 /* SpreadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		EF952FF424E39BD1000C59F0 /* Help LebanonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Help LebanonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF952FF824E39BD1000C59F0 /* Help_LebanonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help_LebanonUITests.swift; sourceTree = "<group>"; };
 		EF952FFA24E39BD1000C59F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF95300624E472DB000C59F0 /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
+		EF95300824E47302000C59F0 /* SpreadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				EF952FD324E39BCD000C59F0 /* AppDelegate.swift */,
 				EF952FD524E39BCD000C59F0 /* SceneDelegate.swift */,
 				EF952FD724E39BCD000C59F0 /* ViewController.swift */,
+				EF95300624E472DB000C59F0 /* ReadViewController.swift */,
+				EF95300824E47302000C59F0 /* SpreadViewController.swift */,
 				EF952FD924E39BCD000C59F0 /* Main.storyboard */,
 				EF952FDF24E39BD1000C59F0 /* Assets.xcassets */,
 				EF952FE124E39BD1000C59F0 /* LaunchScreen.storyboard */,
@@ -266,6 +272,8 @@
 				EF952FD824E39BCD000C59F0 /* ViewController.swift in Sources */,
 				EF952FD424E39BCD000C59F0 /* AppDelegate.swift in Sources */,
 				EF952FD624E39BCD000C59F0 /* SceneDelegate.swift in Sources */,
+				EF95300724E472DB000C59F0 /* ReadViewController.swift in Sources */,
+				EF95300924E47302000C59F0 /* SpreadViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
