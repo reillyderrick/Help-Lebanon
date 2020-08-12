@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF952FD424E39BCD000C59F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF952FD324E39BCD000C59F0 /* AppDelegate.swift */; };
+		EF952FD624E39BCD000C59F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF952FD524E39BCD000C59F0 /* SceneDelegate.swift */; };
+		EF952FD824E39BCD000C59F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF952FD724E39BCD000C59F0 /* ViewController.swift */; };
+		EF952FDB24E39BCD000C59F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF952FD924E39BCD000C59F0 /* Main.storyboard */; };
+		EF952FDE24E39BCD000C59F0 /* Help_Lebanon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF952FDC24E39BCD000C59F0 /* Help_Lebanon.xcdatamodeld */; };
+		EF952FE024E39BD1000C59F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF952FDF24E39BD1000C59F0 /* Assets.xcassets */; };
+		EF952FE324E39BD1000C59F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF952FE124E39BD1000C59F0 /* LaunchScreen.storyboard */; };
+		EF952FEE24E39BD1000C59F0 /* Help_LebanonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF952FED24E39BD1000C59F0 /* Help_LebanonTests.swift */; };
+		EF952FF924E39BD1000C59F0 /* Help_LebanonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF952FF824E39BD1000C59F0 /* Help_LebanonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF952FEA24E39BD1000C59F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF952FC824E39BCD000C59F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF952FCF24E39BCD000C59F0;
+			remoteInfo = "Help Lebanon";
+		};
+		EF952FF524E39BD1000C59F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF952FC824E39BCD000C59F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF952FCF24E39BCD000C59F0;
+			remoteInfo = "Help Lebanon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF952FD024E39BCD000C59F0 /* Help Lebanon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Help Lebanon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF952FD324E39BCD000C59F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF952FD524E39BCD000C59F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF952FD724E39BCD000C59F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF952FDA24E39BCD000C59F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF952FDD24E39BCD000C59F0 /* Help_Lebanon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Help_Lebanon.xcdatamodel; sourceTree = "<group>"; };
+		EF952FDF24E39BD1000C59F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF952FE224E39BD1000C59F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF952FE424E39BD1000C59F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF952FE924E39BD1000C59F0 /* Help LebanonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Help LebanonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF952FED24E39BD1000C59F0 /* Help_LebanonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help_LebanonTests.swift; sourceTree = "<group>"; };
+		EF952FEF24E39BD1000C59F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF952FF424E39BD1000C59F0 /* Help LebanonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Help LebanonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF952FF824E39BD1000C59F0 /* Help_LebanonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Help_LebanonUITests.swift; sourceTree = "<group>"; };
+		EF952FFA24E39BD1000C59F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF952FCD24E39BCD000C59F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF952FE624E39BD1000C59F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF952FF124E39BD1000C59F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF952FC724E39BCD000C59F0 = {
+			isa = PBXGroup;
+			children = (
+				EF952FD224E39BCD000C59F0 /* Help Lebanon */,
+				EF952FEC24E39BD1000C59F0 /* Help LebanonTests */,
+				EF952FF724E39BD1000C59F0 /* Help LebanonUITests */,
+				EF952FD124E39BCD000C59F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF952FD124E39BCD000C59F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF952FD024E39BCD000C59F0 /* Help Lebanon.app */,
+				EF952FE924E39BD1000C59F0 /* Help LebanonTests.xctest */,
+				EF952FF424E39BD1000C59F0 /* Help LebanonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF952FD224E39BCD000C59F0 /* Help Lebanon */ = {
+			isa = PBXGroup;
+			children = (
+				EF952FD324E39BCD000C59F0 /* AppDelegate.swift */,
+				EF952FD524E39BCD000C59F0 /* SceneDelegate.swift */,
+				EF952FD724E39BCD000C59F0 /* ViewController.swift */,
+				EF952FD924E39BCD000C59F0 /* Main.storyboard */,
+				EF952FDF24E39BD1000C59F0 /* Assets.xcassets */,
+				EF952FE124E39BD1000C59F0 /* LaunchScreen.storyboard */,
+				EF952FE424E39BD1000C59F0 /* Info.plist */,
+				EF952FDC24E39BCD000C59F0 /* Help_Lebanon.xcdatamodeld */,
+			);
+			path = "Help Lebanon";
+			sourceTree = "<group>";
+		};
+		EF952FEC24E39BD1000C59F0 /* Help LebanonTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF952FED24E39BD1000C59F0 /* Help_LebanonTests.swift */,
+				EF952FEF24E39BD1000C59F0 /* Info.plist */,
+			);
+			path = "Help LebanonTests";
+			sourceTree = "<group>";
+		};
+		EF952FF724E39BD1000C59F0 /* Help LebanonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF952FF824E39BD1000C59F0 /* Help_LebanonUITests.swift */,
+				EF952FFA24E39BD1000C59F0 /* Info.plist */,
+			);
+			path = "Help LebanonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF952FCF24E39BCD000C59F0 /* Help Lebanon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF952FFD24E39BD1000C59F0 /* Build configuration list for PBXNativeTarget "Help Lebanon" */;
+			buildPhases = (
+				EF952FCC24E39BCD000C59F0 /* Sources */,
+				EF952FCD24E39BCD000C59F0 /* Frameworks */,
+				EF952FCE24E39BCD000C59F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Help Lebanon";
+			productName = "Help Lebanon";
+			productReference = EF952FD024E39BCD000C59F0 /* Help Lebanon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF952FE824E39BD1000C59F0 /* Help LebanonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF95300024E39BD1000C59F0 /* Build configuration list for PBXNativeTarget "Help LebanonTests" */;
+			buildPhases = (
+				EF952FE524E39BD1000C59F0 /* Sources */,
+				EF952FE624E39BD1000C59F0 /* Frameworks */,
+				EF952FE724E39BD1000C59F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF952FEB24E39BD1000C59F0 /* PBXTargetDependency */,
+			);
+			name = "Help LebanonTests";
+			productName = "Help LebanonTests";
+			productReference = EF952FE924E39BD1000C59F0 /* Help LebanonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF952FF324E39BD1000C59F0 /* Help LebanonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF95300324E39BD1000C59F0 /* Build configuration list for PBXNativeTarget "Help LebanonUITests" */;
+			buildPhases = (
+				EF952FF024E39BD1000C59F0 /* Sources */,
+				EF952FF124E39BD1000C59F0 /* Frameworks */,
+				EF952FF224E39BD1000C59F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF952FF624E39BD1000C59F0 /* PBXTargetDependency */,
+			);
+			name = "Help LebanonUITests";
+			productName = "Help LebanonUITests";
+			productReference = EF952FF424E39BD1000C59F0 /* Help LebanonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF952FC824E39BCD000C59F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = reilly;
+				TargetAttributes = {
+					EF952FCF24E39BCD000C59F0 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					EF952FE824E39BD1000C59F0 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = EF952FCF24E39BCD000C59F0;
+					};
+					EF952FF324E39BD1000C59F0 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = EF952FCF24E39BCD000C59F0;
+					};
+				};
+			};
+			buildConfigurationList = EF952FCB24E39BCD000C59F0 /* Build configuration list for PBXProject "Help Lebanon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF952FC724E39BCD000C59F0;
+			productRefGroup = EF952FD124E39BCD000C59F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF952FCF24E39BCD000C59F0 /* Help Lebanon */,
+				EF952FE824E39BD1000C59F0 /* Help LebanonTests */,
+				EF952FF324E39BD1000C59F0 /* Help LebanonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF952FCE24E39BCD000C59F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF952FE324E39BD1000C59F0 /* LaunchScreen.storyboard in Resources */,
+				EF952FE024E39BD1000C59F0 /* Assets.xcassets in Resources */,
+				EF952FDB24E39BCD000C59F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF952FE724E39BD1000C59F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF952FF224E39BD1000C59F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF952FCC24E39BCD000C59F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF952FDE24E39BCD000C59F0 /* Help_Lebanon.xcdatamodeld in Sources */,
+				EF952FD824E39BCD000C59F0 /* ViewController.swift in Sources */,
+				EF952FD424E39BCD000C59F0 /* AppDelegate.swift in Sources */,
+				EF952FD624E39BCD000C59F0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF952FE524E39BD1000C59F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF952FEE24E39BD1000C59F0 /* Help_LebanonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF952FF024E39BD1000C59F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF952FF924E39BD1000C59F0 /* Help_LebanonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF952FEB24E39BD1000C59F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF952FCF24E39BCD000C59F0 /* Help Lebanon */;
+			targetProxy = EF952FEA24E39BD1000C59F0 /* PBXContainerItemProxy */;
+		};
+		EF952FF624E39BD1000C59F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF952FCF24E39BCD000C59F0 /* Help Lebanon */;
+			targetProxy = EF952FF524E39BD1000C59F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF952FD924E39BCD000C59F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF952FDA24E39BCD000C59F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF952FE124E39BD1000C59F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF952FE224E39BD1000C59F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF952FFB24E39BD1000C59F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF952FFC24E39BD1000C59F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF952FFE24E39BD1000C59F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Help Lebanon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "reilly.Help-Lebanon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF952FFF24E39BD1000C59F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Help Lebanon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "reilly.Help-Lebanon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF95300124E39BD1000C59F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Help LebanonTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "reilly.Help-LebanonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Help Lebanon.app/Help Lebanon";
+			};
+			name = Debug;
+		};
+		EF95300224E39BD1000C59F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Help LebanonTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "reilly.Help-LebanonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Help Lebanon.app/Help Lebanon";
+			};
+			name = Release;
+		};
+		EF95300424E39BD1000C59F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Help LebanonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "reilly.Help-LebanonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Help Lebanon";
+			};
+			name = Debug;
+		};
+		EF95300524E39BD1000C59F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Help LebanonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "reilly.Help-LebanonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Help Lebanon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF952FCB24E39BCD000C59F0 /* Build configuration list for PBXProject "Help Lebanon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF952FFB24E39BD1000C59F0 /* Debug */,
+				EF952FFC24E39BD1000C59F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF952FFD24E39BD1000C59F0 /* Build configuration list for PBXNativeTarget "Help Lebanon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF952FFE24E39BD1000C59F0 /* Debug */,
+				EF952FFF24E39BD1000C59F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF95300024E39BD1000C59F0 /* Build configuration list for PBXNativeTarget "Help LebanonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF95300124E39BD1000C59F0 /* Debug */,
+				EF95300224E39BD1000C59F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF95300324E39BD1000C59F0 /* Build configuration list for PBXNativeTarget "Help LebanonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF95300424E39BD1000C59F0 /* Debug */,
+				EF95300524E39BD1000C59F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF952FDC24E39BCD000C59F0 /* Help_Lebanon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF952FDD24E39BCD000C59F0 /* Help_Lebanon.xcdatamodel */,
+			);
+			currentVersion = EF952FDD24E39BCD000C59F0 /* Help_Lebanon.xcdatamodel */;
+			path = Help_Lebanon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF952FC824E39BCD000C59F0 /* Project object */;
+}
