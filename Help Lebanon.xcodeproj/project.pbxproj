@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4EBD9E124E4B36F00148774 /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EBD9E024E4B36F00148774 /* DonateViewController.swift */; };
 		EF952FD424E39BCD000C59F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF952FD324E39BCD000C59F0 /* AppDelegate.swift */; };
 		EF952FD624E39BCD000C59F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF952FD524E39BCD000C59F0 /* SceneDelegate.swift */; };
 		EF952FDB24E39BCD000C59F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF952FD924E39BCD000C59F0 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B4EBD9E024E4B36F00148774 /* DonateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateViewController.swift; sourceTree = "<group>"; };
 		EF952FD024E39BCD000C59F0 /* Help Lebanon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Help Lebanon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF952FD324E39BCD000C59F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF952FD524E39BCD000C59F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				EF952FD324E39BCD000C59F0 /* AppDelegate.swift */,
 				EF952FD524E39BCD000C59F0 /* SceneDelegate.swift */,
 				EFF5183E24E49E25000CD333 /* HomeViewController.swift */,
+				B4EBD9E024E4B36F00148774 /* DonateViewController.swift */,
 				EF95300624E472DB000C59F0 /* ReadViewController.swift */,
 				EF95300824E47302000C59F0 /* SpreadViewController.swift */,
 				EF952FD924E39BCD000C59F0 /* Main.storyboard */,
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF952FDE24E39BCD000C59F0 /* Help_Lebanon.xcdatamodeld in Sources */,
+				B4EBD9E124E4B36F00148774 /* DonateViewController.swift in Sources */,
 				EF952FD424E39BCD000C59F0 /* AppDelegate.swift in Sources */,
 				EF952FD624E39BCD000C59F0 /* SceneDelegate.swift in Sources */,
 				EF95300724E472DB000C59F0 /* ReadViewController.swift in Sources */,
