@@ -45,6 +45,23 @@ class ReadViewController: UIViewController {
               if let url = NSURL(string: "https://vm.tiktok.com/ZMJMDTMdQ/") {         UIApplication.shared.open(url as URL)     }
     }
     
+    // HERE are the new article buttons + they attached links
+    
+    
+    @IBAction func cnnArticleButton(_ sender: UIButton) {
+
+        if let url = NSURL(string: "https://www.cnn.com/style/article/beirut-explosion-cultural-impact/index.html") {         UIApplication.shared.open(url as URL)     }
+    }
+    
+    @IBAction func washingtonPostArticleButton(_ sender: UIButton) {
+        
+        if let url = NSURL(string: "https://www.washingtonpost.com/world/2020/08/06/beiruts-blast-lebanons-deeper-crisis/") {         UIApplication.shared.open(url as URL)     }
+    }
+    
+    @IBAction func unicefArticleButton(_ sender: UIButton) {
+        
+        if let url = NSURL(string: "https://www.unicef.org/press-releases/80000-children-displaced-due-beirut-explosions-unicef") {         UIApplication.shared.open(url as URL)     }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -92,7 +109,7 @@ class ReadViewController: UIViewController {
     @IBAction func leftButton2(_ sender: Any) {
         if (titleNum2 == 1) {
             readTitles.text = "Social Media"
-            titleNum2 = 3
+            titleNum2 = 2
             
             for info in SocialInfo {
                 info.isHidden = false
