@@ -18,6 +18,8 @@ class HomeViewController: UIViewController {
     @IBOutlet var BeirutInfo: [UILabel]!
     @IBOutlet var AftermathInfo: [UILabel]!
     @IBOutlet var LebanonInfo: [UILabel]!
+    @IBOutlet var BeirutPics: [UIImageView]!
+    @IBOutlet var AftermathPics: [UIImageView]!
     
     @IBOutlet weak var homeTitles: UILabel!
     var titleNum = 1
@@ -51,6 +53,10 @@ class HomeViewController: UIViewController {
             for info in BeirutInfo {
                 info.isHidden = true
             }
+            for pic in BeirutPics {
+                pic.isHidden = true
+            }
+            
         } else if (titleNum == 2) {
             homeTitles.text = "The Beirut Explosion"
             titleNum = 1
@@ -58,15 +64,25 @@ class HomeViewController: UIViewController {
             for info in BeirutInfo {
                 info.isHidden = false
             }
+            for pic in BeirutPics {
+                pic.isHidden = false
+            }
             for info in AftermathInfo {
                 info.isHidden = true
             }
+            for pic in AftermathPics {
+                pic.isHidden = true
+            }
+            
         } else if (titleNum == 3) {
             homeTitles.text = "Aftermath in Beirut"
             titleNum = 2
             
             for info in AftermathInfo {
                 info.isHidden = false
+            }
+            for pic in AftermathPics {
+                pic.isHidden = false
             }
             for info in LebanonInfo {
                 info.isHidden = true
@@ -81,8 +97,14 @@ class HomeViewController: UIViewController {
             for info in AftermathInfo {
                 info.isHidden = false
             }
+            for pic in AftermathPics {
+                pic.isHidden = false
+            }
             for info in BeirutInfo {
                 info.isHidden = true
+            }
+            for pic in BeirutPics {
+                pic.isHidden = true
             }
         } else if (titleNum == 2) {
             homeTitles.text = "Learn About Lebanon"
@@ -94,12 +116,18 @@ class HomeViewController: UIViewController {
             for info in AftermathInfo {
                 info.isHidden = true
             }
+            for pic in AftermathPics {
+                pic.isHidden = true
+            }
         } else if (titleNum == 3) {
             homeTitles.text = "The Beirut Explosion"
             titleNum = 1
             
             for info in BeirutInfo {
                 info.isHidden = false
+            }
+            for pic in BeirutPics {
+                pic.isHidden = false
             }
             for info in LebanonInfo {
                 info.isHidden = true

@@ -322,6 +322,16 @@
                                 <color key="backgroundColor" red="0.93822437520000002" green="0.43175762890000002" blue="0.3701239228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lebaneseflag" translatesAutoresizingMaskIntoConstraints="NO" id="wtX-Ry-D8x">
+                                <rect key="frame" x="152" y="45" width="111" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k2e-Ul-UpV">
                                 <rect key="frame" x="0.0" y="75" width="77" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -339,6 +349,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EfPQVRTWoAAKB3X" translatesAutoresizingMaskIntoConstraints="NO" id="Iye-lH-7R5">
+                                <rect key="frame" x="12" y="221" width="196" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcV-Il-hwr">
                                 <rect key="frame" x="362" y="182" width="32" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -409,37 +423,92 @@
                                     <segue destination="zf6-6Q-2uf" kind="show" id="lC5-8p-ReJ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Example Beirut" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rnZ-1Z-UDn">
-                                <rect key="frame" x="232" y="286" width="115" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rnZ-1Z-UDn">
+                                <rect key="frame" x="20" y="663" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Example Aftermath" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hf3-I4-ZxM">
-                                <rect key="frame" x="232" y="380" width="146" height="21"/>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hf3-I4-ZxM">
+                                <rect key="frame" x="115" y="663" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Example Lebanon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R81-xt-pvG">
-                                <rect key="frame" x="232" y="494" width="136" height="21"/>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R81-xt-pvG">
+                                <rect key="frame" x="249" y="663" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lebaneseflag" translatesAutoresizingMaskIntoConstraints="NO" id="wtX-Ry-D8x">
-                                <rect key="frame" x="152" y="45" width="111" height="72"/>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beirut aftermath2" translatesAutoresizingMaskIntoConstraints="NO" id="Bzk-5h-FyJ">
+                                <rect key="frame" x="21" y="229" width="179" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beirut aftermath1" translatesAutoresizingMaskIntoConstraints="NO" id="fNi-Q5-haw">
+                                <rect key="frame" x="20" y="545" width="196" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mideast-Lebanon-Explosion-2" translatesAutoresizingMaskIntoConstraints="NO" id="9Rg-Kj-eqf">
+                                <rect key="frame" x="228" y="374" width="166" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="On August 4th an explosion of thousands of tons of ammonium nitrate wreaked havoc on the city Beirut in Lebanon." lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6a2-6g-Igw">
+                                <rect key="frame" x="211" y="226" width="200" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" 171 people have been found dead so far, and thousands have been found injured." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="am9-wn-bff">
+                                <rect key="frame" x="25" y="389" width="195" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The city is in ruins as the explosion impacted places as far as 3 miles in all directions." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVl-zw-hUn">
+                                <rect key="frame" x="218" y="554" width="193" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wsl-Rm-fz6">
+                                <rect key="frame" x="218" y="511" width="200" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Hospitals and lots of medicine were destroyed in this time of great need. Because of this, people like the child with cancer in this picture have no where to turn.</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beirut aftermath3" translatesAutoresizingMaskIntoConstraints="NO" id="4IG-cW-CP3">
+                                <rect key="frame" x="222" y="384" width="179" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-08-12 at 11.52.04 AM" translatesAutoresizingMaskIntoConstraints="NO" id="o9f-oh-zFy">
+                                <rect key="frame" x="12" y="558" width="179" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CKX-hO-tar">
+                                <rect key="frame" x="25" y="340" width="205" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">This explosion has displaced thousands of Lebanese citizens. Currently, there are 300,000 (15% of the population) people reported as displaced</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6c-dP-BoH">
+                                <rect key="frame" x="214" y="189" width="187" height="192"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">500,000 people need help obtaining things like shelter, food, and clothing following this explosion. This is why we all must donate immediately.</string>
+                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="aCp-Ew-OoG"/>
@@ -453,6 +522,18 @@
                         <outletCollection property="BeirutInfo" destination="rnZ-1Z-UDn" collectionClass="NSMutableArray" id="zRv-nP-RbM"/>
                         <outletCollection property="AftermathInfo" destination="Hf3-I4-ZxM" collectionClass="NSMutableArray" id="QrQ-fX-zvo"/>
                         <outletCollection property="LebanonInfo" destination="R81-xt-pvG" collectionClass="NSMutableArray" id="W1f-gg-sOT"/>
+                        <outletCollection property="BeirutPics" destination="Iye-lH-7R5" collectionClass="NSMutableArray" id="rAh-gE-uqa"/>
+                        <outletCollection property="AftermathPics" destination="Bzk-5h-FyJ" collectionClass="NSMutableArray" id="8iZ-Q4-Lgt"/>
+                        <outletCollection property="BeirutPics" destination="9Rg-Kj-eqf" collectionClass="NSMutableArray" id="Cbh-bt-SNm"/>
+                        <outletCollection property="BeirutPics" destination="fNi-Q5-haw" collectionClass="NSMutableArray" id="gom-yf-3vx"/>
+                        <outletCollection property="BeirutInfo" destination="6a2-6g-Igw" collectionClass="NSMutableArray" id="AKn-xK-Jqn"/>
+                        <outletCollection property="BeirutInfo" destination="am9-wn-bff" collectionClass="NSMutableArray" id="Gqv-ZY-wrL"/>
+                        <outletCollection property="BeirutInfo" destination="CVl-zw-hUn" collectionClass="NSMutableArray" id="2mk-63-TSO"/>
+                        <outletCollection property="AftermathPics" destination="4IG-cW-CP3" collectionClass="NSMutableArray" id="35e-iq-f5A"/>
+                        <outletCollection property="AftermathPics" destination="o9f-oh-zFy" collectionClass="NSMutableArray" id="ps1-Sd-FX3"/>
+                        <outletCollection property="AftermathInfo" destination="Z6c-dP-BoH" collectionClass="NSMutableArray" id="l35-hp-Usk"/>
+                        <outletCollection property="AftermathInfo" destination="CKX-hO-tar" collectionClass="NSMutableArray" id="ZAA-XQ-W5L"/>
+                        <outletCollection property="AftermathInfo" destination="wsl-Rm-fz6" collectionClass="NSMutableArray" id="dt6-Ux-c0x"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QyK-Pw-dJW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -610,13 +691,19 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="x21-1w-UC6"/>
-        <segue reference="H2k-Lo-mWX"/>
-        <segue reference="izI-Av-NH6"/>
+        <segue reference="lC5-8p-ReJ"/>
+        <segue reference="GFz-yZ-S22"/>
+        <segue reference="Ge3-aD-9ug"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="EfPQVRTWoAAKB3X" width="1024" height="560"/>
+        <image name="Mideast-Lebanon-Explosion-2" width="800" height="533"/>
+        <image name="Screen Shot 2020-08-12 at 11.52.04 AM" width="497" height="262"/>
         <image name="arrowtriangle.left.fill" catalog="system" width="128" height="113"/>
         <image name="arrowtriangle.right.fill" catalog="system" width="128" height="113"/>
+        <image name="beirut aftermath1" width="3291" height="2027"/>
+        <image name="beirut aftermath2" width="730" height="411"/>
+        <image name="beirut aftermath3" width="602" height="338"/>
         <image name="lebaneseflag" width="1200" height="800"/>
         <image name="line.horizontal.3" catalog="system" width="128" height="64"/>
     </resources>
