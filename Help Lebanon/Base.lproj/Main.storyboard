@@ -64,6 +64,7 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" backgroundImage="line.horizontal.3" catalog="system"/>
                                 <connections>
+                                    <action selector="drop2:" destination="8SQ-J6-Olf" eventType="touchUpInside" id="Qsg-YC-SN9"/>
                                     <action selector="drop3:" destination="Qp4-wq-5E1" eventType="touchUpInside" id="ewi-V8-2zz"/>
                                 </connections>
                             </button>
@@ -352,6 +353,7 @@
                                 <state key="normal" backgroundImage="line.horizontal.3" catalog="system"/>
                                 <connections>
                                     <action selector="drop1:" destination="Mh3-6L-08N" eventType="touchUpInside" id="Ref-uh-SUH"/>
+                                    <action selector="drop1:" destination="VdH-qG-WH8" eventType="touchUpInside" id="jo5-uT-xNV"/>
                                     <action selector="drop3:" destination="Qp4-wq-5E1" eventType="touchUpInside" id="tph-hM-54F"/>
                                 </connections>
                             </button>
@@ -573,7 +575,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Oud-yh-2yu"/>
+        <segue reference="Adg-xy-ZX9"/>
         <segue reference="Ge3-aD-9ug"/>
     </inferredMetricsTieBreakers>
     <resources>
