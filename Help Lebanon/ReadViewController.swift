@@ -25,25 +25,25 @@ class ReadViewController: UIViewController {
     
     @IBAction func ourInstagramButton(_ sender: UIButton) {
         
-              if let url = NSURL(string: "https://www.unicefusa.org/") {         UIApplication.shared.open(url as URL)     }
+              if let url = NSURL(string: "https://www.instagram.com/helplebanontoday/?hl=en") {         UIApplication.shared.open(url as URL)     }
     }
     
     @IBAction func tikTokHashtags(_ sender: UIButton) {
         
         
-              if let url = NSURL(string: "https://www.unicefusa.org/") {         UIApplication.shared.open(url as URL)     }
+              if let url = NSURL(string: "https://vm.tiktok.com/ZMJMDs7G2/") {         UIApplication.shared.open(url as URL)     }
     }
     
     @IBAction func instagramHashtagsButton(_ sender: UIButton) {
         
         
-              if let url = NSURL(string: "https://www.unicefusa.org/") {         UIApplication.shared.open(url as URL)     }
+              if let url = NSURL(string: "https://www.instagram.com/explore/tags/prayforlebanon/?hl=en") {         UIApplication.shared.open(url as URL)     }
     }
     
     @IBAction func ourTikTok(_ sender: UIButton) {
         
         
-              if let url = NSURL(string: "https://www.unicefusa.org/") {         UIApplication.shared.open(url as URL)     }
+              if let url = NSURL(string: "https://vm.tiktok.com/ZMJMDTMdQ/") {         UIApplication.shared.open(url as URL)     }
     }
     
     
