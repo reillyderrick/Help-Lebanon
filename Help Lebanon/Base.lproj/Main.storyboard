@@ -139,7 +139,7 @@
                                 <color key="tintColor" red="0.93822437520000002" green="0.43175762890000002" blue="0.3701239228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" backgroundImage="arrowtriangle.right.fill" catalog="system"/>
                                 <connections>
-                                    <action selector="rightButton2:" destination="8SQ-J6-Olf" eventType="touchUpInside" id="Fd5-fT-HgE"/>
+                                    <action selector="rightButton2:" destination="8SQ-J6-Olf" eventType="touchUpInside" id="FGL-fv-eQM"/>
                                     <action selector="rightHomeButton:" destination="VdH-qG-WH8" eventType="touchUpInside" id="XfV-2Q-hOX"/>
                                 </connections>
                             </button>
@@ -152,11 +152,6 @@
                                 <rect key="frame" x="57" y="629" width="87" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Social Media"/>
-                            </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBb-oi-A5T">
-                                <rect key="frame" x="282" y="629" width="57" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Youtube"/>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXr-2r-sKU">
                                 <rect key="frame" x="158" y="253" width="98" height="30"/>
@@ -190,22 +185,29 @@
                                     <action selector="ourTikTok:" destination="8SQ-J6-Olf" eventType="touchUpInside" id="sHy-Q2-BnW"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVm-TX-Oxj">
-                                <rect key="frame" x="64" y="502" width="13" height="33"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSu-8H-4fI">
+                                <rect key="frame" x="85" y="414" width="30" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.93822437520000002" green="0.43175762890000002" blue="0.3701239228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
-                                <color key="textColor" red="0.93822437520000002" green="0.43175762890000002" blue="0.3701239228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTV-GX-sBr">
-                                <rect key="frame" x="94" y="417" width="13" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <state key="normal" title="*">
+                                    <color key="titleColor" red="0.93822437520000002" green="0.43175762890000002" blue="0.3701239228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RrS-bw-BhH">
+                                <rect key="frame" x="57" y="499" width="30" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.93822437520000002" green="0.43175762890000002" blue="0.3701239228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
-                                <color key="textColor" red="0.93822437520000002" green="0.43175762890000002" blue="0.3701239228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <state key="normal" title="*">
+                                    <color key="titleColor" red="0.93822437520000002" green="0.43175762890000002" blue="0.3701239228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFP-HM-94Z">
+                                <rect key="frame" x="70" y="642" width="274" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Not all posts are by trustworthy sources">
+                                    <color key="titleColor" red="0.93822437520000002" green="0.43175762890000002" blue="0.3701239228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="nn5-sK-HHE"/>
@@ -218,7 +220,13 @@
                         <outlet property="spreadButton2" destination="Rus-xg-GGz" id="dtH-Je-OY6"/>
                         <outletCollection property="NewsInfo" destination="w4n-3M-lCd" collectionClass="NSMutableArray" id="fU8-Ak-HgN"/>
                         <outletCollection property="SocialInfo" destination="md0-nD-JEG" collectionClass="NSMutableArray" id="f9Q-Y1-z4R"/>
-                        <outletCollection property="YoutubeInfo" destination="lBb-oi-A5T" collectionClass="NSMutableArray" id="13L-gK-ErZ"/>
+                        <outletCollection property="SocialInfo" destination="yXr-2r-sKU" collectionClass="NSMutableArray" id="9Rj-pc-mbN"/>
+                        <outletCollection property="SocialInfo" destination="o2U-D2-TAh" collectionClass="NSMutableArray" id="rP7-a8-h8C"/>
+                        <outletCollection property="SocialInfo" destination="ll9-uk-pgR" collectionClass="NSMutableArray" id="ArA-TD-2eK"/>
+                        <outletCollection property="SocialInfo" destination="Nrg-07-RkU" collectionClass="NSMutableArray" id="A4h-OP-IsV"/>
+                        <outletCollection property="SocialInfo" destination="VSu-8H-4fI" collectionClass="NSMutableArray" id="vHs-Sa-9fC"/>
+                        <outletCollection property="SocialInfo" destination="RrS-bw-BhH" collectionClass="NSMutableArray" id="Nss-bY-7IW"/>
+                        <outletCollection property="SocialInfo" destination="wFP-HM-94Z" collectionClass="NSMutableArray" id="Igq-HE-wC7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8N1-HD-GLn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

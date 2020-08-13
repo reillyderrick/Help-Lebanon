@@ -17,7 +17,6 @@ class ReadViewController: UIViewController {
     
     @IBOutlet var NewsInfo: [UIButton]!
     @IBOutlet var SocialInfo: [UIButton]!
-    @IBOutlet var YoutubeInfo: [UIButton]!
     
     @IBOutlet weak var readTitles: UILabel!
     var titleNum2 = 1
@@ -66,40 +65,6 @@ class ReadViewController: UIViewController {
         }
     }
     
-    @IBAction func leftButton2(_ sender: Any) {
-        if (titleNum2 == 1) {
-            readTitles.text = "Youtube"
-            titleNum2 = 3
-            
-            for info in YoutubeInfo {
-                info.isHidden = false
-            }
-            for info in NewsInfo {
-                info.isHidden = true
-            }
-        } else if (titleNum2 == 2) {
-            readTitles.text = "News Articles"
-            titleNum2 = 1
-            
-            for info in NewsInfo {
-                info.isHidden = false
-            }
-            for info in SocialInfo {
-                info.isHidden = true
-            }
-        } else if (titleNum2 == 3) {
-            readTitles.text = "Social Media"
-            titleNum2 = 2
-            
-            for info in SocialInfo {
-                info.isHidden = false
-            }
-            for info in YoutubeInfo {
-                info.isHidden = true
-            }
-        }
-    }
-    
     @IBAction func rightButton2(_ sender: Any) {
         if (titleNum2 == 1) {
             readTitles.text = "Social Media"
@@ -112,27 +77,43 @@ class ReadViewController: UIViewController {
                 info.isHidden = true
             }
         } else if (titleNum2 == 2) {
-            readTitles.text = "Youtube"
-            titleNum2 = 3
-            
-            for info in YoutubeInfo {
-                info.isHidden = false
-            }
-            for info in SocialInfo {
-                info.isHidden = true
-            }
-        } else if (titleNum2 == 3) {
             readTitles.text = "News Articles"
             titleNum2 = 1
             
             for info in NewsInfo {
                 info.isHidden = false
             }
-            for info in YoutubeInfo {
+            for info in SocialInfo {
                 info.isHidden = true
             }
         }
     }
+    
+    @IBAction func leftButton2(_ sender: Any) {
+        if (titleNum2 == 1) {
+            readTitles.text = "Social Media"
+            titleNum2 = 3
+            
+            for info in SocialInfo {
+                info.isHidden = false
+            }
+            for info in NewsInfo {
+                info.isHidden = true
+            }
+        } else if (titleNum2 == 2) {
+            readTitles.text = "News Articles"
+            titleNum2 = 1
+            
+            for info in NewsInfo {
+                info.isHidden = false
+            }
+            for info in SocialInfo {
+                info.isHidden = true
+            }
+        }
+    }
+        
+        
     /*
     // MARK: - Navigation
 
@@ -142,5 +123,4 @@ class ReadViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }
