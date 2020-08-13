@@ -22,6 +22,31 @@ class ReadViewController: UIViewController {
     @IBOutlet weak var readTitles: UILabel!
     var titleNum2 = 1
     
+    
+    @IBAction func ourInstagramButton(_ sender: UIButton) {
+        
+              if let url = NSURL(string: "https://www.unicefusa.org/") {         UIApplication.shared.open(url as URL)     }
+    }
+    
+    @IBAction func tikTokHashtags(_ sender: UIButton) {
+        
+        
+              if let url = NSURL(string: "https://www.unicefusa.org/") {         UIApplication.shared.open(url as URL)     }
+    }
+    
+    @IBAction func instagramHashtagsButton(_ sender: UIButton) {
+        
+        
+              if let url = NSURL(string: "https://www.unicefusa.org/") {         UIApplication.shared.open(url as URL)     }
+    }
+    
+    @IBAction func ourTikTok(_ sender: UIButton) {
+        
+        
+              if let url = NSURL(string: "https://www.unicefusa.org/") {         UIApplication.shared.open(url as URL)     }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
