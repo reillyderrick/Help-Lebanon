@@ -15,6 +15,9 @@ class ReadViewController: UIViewController {
     @IBOutlet weak var spreadButton2: UIButton!
     var dropState2 = 0
     
+    @IBOutlet weak var readTitles: UILabel!
+    var titleNum2 = 1
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -31,6 +34,32 @@ class ReadViewController: UIViewController {
             readButton2.isHidden = true
             spreadButton2.isHidden = true
             dropState2 = 0
+        }
+    }
+    
+    @IBAction func leftButton2(_ sender: Any) {
+        if (titleNum2 == 1) {
+            readTitles.text = "Youtube"
+            titleNum2 = 3
+        } else if (titleNum2 == 2) {
+            readTitles.text = "News Articles"
+            titleNum2 = 1
+        } else if (titleNum2 == 3) {
+            readTitles.text = "Social Media"
+            titleNum2 = 2
+        }
+    }
+    
+    @IBAction func rightButton2(_ sender: Any) {
+        if (titleNum2 == 1) {
+            readTitles.text = "Social Media"
+            titleNum2 = 2
+        } else if (titleNum2 == 2) {
+            readTitles.text = "Youtube"
+            titleNum2 = 3
+        } else if (titleNum2 == 3) {
+            readTitles.text = "News Articles"
+            titleNum2 = 1
         }
     }
     /*

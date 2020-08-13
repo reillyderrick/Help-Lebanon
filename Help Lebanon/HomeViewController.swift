@@ -9,12 +9,14 @@
 import UIKit
 
 class HomeViewController: UIViewController {
-
     
     @IBOutlet weak var homeButton1: UIButton!
     @IBOutlet weak var readButton1: UIButton!
     @IBOutlet weak var spreadButton1: UIButton!
     var dropState1 = 0
+    
+    @IBOutlet weak var homeTitles: UILabel!
+    var titleNum = 1
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +35,33 @@ class HomeViewController: UIViewController {
             dropState1 = 0
         }
     }
+    
+    @IBAction func leftHomeButton(_ sender: Any) {
+        if (titleNum == 1) {
+            homeTitles.text = "Learn About Lebanon"
+            titleNum = 3
+        } else if (titleNum == 2) {
+            homeTitles.text = "The Beirut Explosion"
+            titleNum = 1
+        } else if (titleNum == 3) {
+            homeTitles.text = "Aftermath in Beirut"
+            titleNum = 2
+        }
+    }
+    @IBAction func rightHomeButton(_ sender: Any) {
+        if (titleNum == 1) {
+            homeTitles.text = "Aftermath in Beirut"
+            titleNum = 2
+        } else if (titleNum == 2) {
+            homeTitles.text = "Learn About Lebanon"
+            titleNum = 3
+        } else if (titleNum == 3) {
+            homeTitles.text = "The Beirut Explosion"
+            titleNum = 1
+        }
+    }
+    
+    
     
 
     /*
