@@ -21,6 +21,11 @@ class DonateViewController: UIViewController {
         if let url = NSURL(string: "https://www.unicefusa.org/") {         UIApplication.shared.open(url as URL)     }
               }
     
+    @IBAction func redcrossButton(_ sender: UIButton) {
+        
+        if let url = NSURL(string: "https://supportlrc.app/?redirect=1&PID=158") {         UIApplication.shared.open(url as URL)     }
+                   }
+    
     
 override func viewDidLoad() {
         super.viewDidLoad()
