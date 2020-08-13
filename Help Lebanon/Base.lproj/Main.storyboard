@@ -281,7 +281,7 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sId-rk-sxg">
-                                <rect key="frame" x="0.0" y="692" width="414" height="162"/>
+                                <rect key="frame" x="0.0" y="692" width="414" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.73279109590000002" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </button>
@@ -568,6 +568,9 @@
                                         <integer key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="VdH-qG-WH8" kind="show" id="MK7-aY-sOZ"/>
+                                </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gy0-wl-13N">
                                 <rect key="frame" x="0.0" y="145" width="166" height="45"/>
@@ -692,7 +695,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="lC5-8p-ReJ"/>
-        <segue reference="GFz-yZ-S22"/>
+        <segue reference="H2k-Lo-mWX"/>
         <segue reference="Ge3-aD-9ug"/>
     </inferredMetricsTieBreakers>
     <resources>
