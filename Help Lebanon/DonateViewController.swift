@@ -9,16 +9,26 @@
 import UIKit
 
 class DonateViewController: UIViewController {
-
+    
+    
     @IBOutlet weak var homeButton4: UIButton!
     @IBOutlet weak var readButton4: UIButton!
     @IBOutlet weak var spreadButton4: UIButton!
     var dropState4 = 0
     
-    override func viewDidLoad() {
+    @IBAction func unicefButton(_ sender: UIButton) {
+        
+        if let url = NSURL(string: "https://www.unicefusa.org/") {         UIApplication.shared.open(url as URL)     }
+              }
+    
+    
+override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
+
+   
+       
+
     @IBAction func drop4(_ sender: Any) {
         if (dropState4 == 0) {
             homeButton4.isHidden = false
@@ -32,7 +42,10 @@ class DonateViewController: UIViewController {
             dropState4 = 0
         }
     }
-    
+
+
+}
+
     /*
     // MARK: - Navigation
 
@@ -43,4 +56,3 @@ class DonateViewController: UIViewController {
     }
     */
 
-}
