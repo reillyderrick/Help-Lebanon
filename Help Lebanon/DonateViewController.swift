@@ -10,13 +10,29 @@ import UIKit
 
 class DonateViewController: UIViewController {
 
+    @IBOutlet weak var homeButton4: UIButton!
+    @IBOutlet weak var readButton4: UIButton!
+    @IBOutlet weak var spreadButton4: UIButton!
+    var dropState4 = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func drop4(_ sender: Any) {
+        if (dropState4 == 0) {
+            homeButton4.isHidden = false
+            readButton4.isHidden = false
+            spreadButton4.isHidden = false
+            dropState4 = 1
+        } else if (dropState4 == 1){
+            homeButton4.isHidden = true
+            readButton4.isHidden = true
+            spreadButton4.isHidden = true
+            dropState4 = 0
+        }
+    }
+    
     /*
     // MARK: - Navigation
 
