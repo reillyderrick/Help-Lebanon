@@ -15,6 +15,10 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var spreadButton1: UIButton!
     var dropState1 = 0
     
+    @IBOutlet var BeirutInfo: [UILabel]!
+    @IBOutlet var AftermathInfo: [UILabel]!
+    @IBOutlet var LebanonInfo: [UILabel]!
+    
     @IBOutlet weak var homeTitles: UILabel!
     var titleNum = 1
     
@@ -40,24 +44,66 @@ class HomeViewController: UIViewController {
         if (titleNum == 1) {
             homeTitles.text = "Learn About Lebanon"
             titleNum = 3
+            
+            for info in LebanonInfo {
+                info.isHidden = false
+            }
+            for info in BeirutInfo {
+                info.isHidden = true
+            }
         } else if (titleNum == 2) {
             homeTitles.text = "The Beirut Explosion"
             titleNum = 1
+            
+            for info in BeirutInfo {
+                info.isHidden = false
+            }
+            for info in AftermathInfo {
+                info.isHidden = true
+            }
         } else if (titleNum == 3) {
             homeTitles.text = "Aftermath in Beirut"
             titleNum = 2
+            
+            for info in AftermathInfo {
+                info.isHidden = false
+            }
+            for info in LebanonInfo {
+                info.isHidden = true
+            }
         }
     }
     @IBAction func rightHomeButton(_ sender: Any) {
         if (titleNum == 1) {
             homeTitles.text = "Aftermath in Beirut"
             titleNum = 2
+            
+            for info in AftermathInfo {
+                info.isHidden = false
+            }
+            for info in BeirutInfo {
+                info.isHidden = true
+            }
         } else if (titleNum == 2) {
             homeTitles.text = "Learn About Lebanon"
             titleNum = 3
+            
+            for info in LebanonInfo {
+                info.isHidden = false
+            }
+            for info in AftermathInfo {
+                info.isHidden = true
+            }
         } else if (titleNum == 3) {
             homeTitles.text = "The Beirut Explosion"
             titleNum = 1
+            
+            for info in BeirutInfo {
+                info.isHidden = false
+            }
+            for info in LebanonInfo {
+                info.isHidden = true
+            }
         }
     }
     

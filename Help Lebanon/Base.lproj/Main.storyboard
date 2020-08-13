@@ -143,6 +143,21 @@
                                     <action selector="rightHomeButton:" destination="VdH-qG-WH8" eventType="touchUpInside" id="XfV-2Q-hOX"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w4n-3M-lCd">
+                                <rect key="frame" x="96" y="264" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="News"/>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="md0-nD-JEG">
+                                <rect key="frame" x="72" y="334" width="87" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Social Media"/>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lBb-oi-A5T">
+                                <rect key="frame" x="87" y="406" width="57" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Youtube"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="nn5-sK-HHE"/>
@@ -153,6 +168,9 @@
                         <outlet property="readButton2" destination="HrZ-cJ-1cu" id="IB7-br-1jA"/>
                         <outlet property="readTitles" destination="wlP-0v-9y9" id="UJO-fL-n8v"/>
                         <outlet property="spreadButton2" destination="Rus-xg-GGz" id="dtH-Je-OY6"/>
+                        <outletCollection property="NewsInfo" destination="w4n-3M-lCd" collectionClass="NSMutableArray" id="fU8-Ak-HgN"/>
+                        <outletCollection property="SocialInfo" destination="md0-nD-JEG" collectionClass="NSMutableArray" id="f9Q-Y1-z4R"/>
+                        <outletCollection property="YoutubeInfo" destination="lBb-oi-A5T" collectionClass="NSMutableArray" id="13L-gK-ErZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8N1-HD-GLn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -440,6 +458,27 @@
                                     <segue destination="Qp4-wq-5E1" kind="show" id="Oud-yh-2yu"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Example Beirut" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rnZ-1Z-UDn">
+                                <rect key="frame" x="232" y="286" width="115" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Example Aftermath" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hf3-I4-ZxM">
+                                <rect key="frame" x="232" y="380" width="146" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Example Lebanon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R81-xt-pvG">
+                                <rect key="frame" x="232" y="494" width="136" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="aCp-Ew-OoG"/>
@@ -450,6 +489,9 @@
                         <outlet property="homeTitles" destination="Y3d-Yi-TrI" id="ORI-7B-6Qa"/>
                         <outlet property="readButton1" destination="i3m-cF-q8V" id="AOH-bA-q8B"/>
                         <outlet property="spreadButton1" destination="TBm-Iz-dra" id="ZFw-79-6iO"/>
+                        <outletCollection property="BeirutInfo" destination="rnZ-1Z-UDn" collectionClass="NSMutableArray" id="zRv-nP-RbM"/>
+                        <outletCollection property="AftermathInfo" destination="Hf3-I4-ZxM" collectionClass="NSMutableArray" id="QrQ-fX-zvo"/>
+                        <outletCollection property="LebanonInfo" destination="R81-xt-pvG" collectionClass="NSMutableArray" id="W1f-gg-sOT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QyK-Pw-dJW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -604,9 +646,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="V2u-bh-LbE"/>
-        <segue reference="LCG-Tl-aCg"/>
-        <segue reference="izI-Av-NH6"/>
+        <segue reference="x21-1w-UC6"/>
+        <segue reference="Adg-xy-ZX9"/>
+        <segue reference="Ge3-aD-9ug"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrowtriangle.left.fill" catalog="system" width="128" height="113"/>

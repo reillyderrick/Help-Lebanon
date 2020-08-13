@@ -15,6 +15,10 @@ class ReadViewController: UIViewController {
     @IBOutlet weak var spreadButton2: UIButton!
     var dropState2 = 0
     
+    @IBOutlet var NewsInfo: [UIButton]!
+    @IBOutlet var SocialInfo: [UIButton]!
+    @IBOutlet var YoutubeInfo: [UIButton]!
+    
     @IBOutlet weak var readTitles: UILabel!
     var titleNum2 = 1
     
@@ -41,12 +45,33 @@ class ReadViewController: UIViewController {
         if (titleNum2 == 1) {
             readTitles.text = "Youtube"
             titleNum2 = 3
+            
+            for info in YoutubeInfo {
+                info.isHidden = false
+            }
+            for info in NewsInfo {
+                info.isHidden = true
+            }
         } else if (titleNum2 == 2) {
             readTitles.text = "News Articles"
             titleNum2 = 1
+            
+            for info in NewsInfo {
+                info.isHidden = false
+            }
+            for info in SocialInfo {
+                info.isHidden = true
+            }
         } else if (titleNum2 == 3) {
             readTitles.text = "Social Media"
             titleNum2 = 2
+            
+            for info in SocialInfo {
+                info.isHidden = false
+            }
+            for info in YoutubeInfo {
+                info.isHidden = true
+            }
         }
     }
     
@@ -54,12 +79,33 @@ class ReadViewController: UIViewController {
         if (titleNum2 == 1) {
             readTitles.text = "Social Media"
             titleNum2 = 2
+            
+            for info in SocialInfo {
+                info.isHidden = false
+            }
+            for info in NewsInfo {
+                info.isHidden = true
+            }
         } else if (titleNum2 == 2) {
             readTitles.text = "Youtube"
             titleNum2 = 3
+            
+            for info in YoutubeInfo {
+                info.isHidden = false
+            }
+            for info in SocialInfo {
+                info.isHidden = true
+            }
         } else if (titleNum2 == 3) {
             readTitles.text = "News Articles"
             titleNum2 = 1
+            
+            for info in NewsInfo {
+                info.isHidden = false
+            }
+            for info in YoutubeInfo {
+                info.isHidden = true
+            }
         }
     }
     /*
