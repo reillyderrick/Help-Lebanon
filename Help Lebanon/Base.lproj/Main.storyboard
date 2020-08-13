@@ -203,7 +203,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="zf6-6Q-2uf" kind="show" id="ajM-r5-vJU"/>
+                                    <segue destination="zf6-6Q-2uf" kind="show" id="V2u-bh-LbE"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DONATE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZXw-9J-eUt">
@@ -320,7 +320,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="zf6-6Q-2uf" kind="show" id="dlh-QZ-5Jg"/>
+                                    <segue destination="zf6-6Q-2uf" kind="show" id="y23-ay-MmL"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DONATE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aAy-x8-Pm6">
@@ -558,6 +558,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FJb-Qh-QdO">
                                 <rect key="frame" x="99" y="362" width="217" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" link="YES"/>
+                                </accessibility>
                                 <state key="normal" title="Donate to UNICEF here"/>
                                 <connections>
                                     <action selector="unicefButton:" destination="zf6-6Q-2uf" eventType="touchUpInside" id="WkI-EZ-ggH"/>
@@ -595,7 +598,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="x21-1w-UC6"/>
+        <segue reference="V2u-bh-LbE"/>
         <segue reference="LCG-Tl-aCg"/>
         <segue reference="izI-Av-NH6"/>
     </inferredMetricsTieBreakers>
