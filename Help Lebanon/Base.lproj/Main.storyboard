@@ -90,6 +90,9 @@
                                         <integer key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="VdH-qG-WH8" kind="show" id="vFW-Gt-CXh"/>
+                                </connections>
                             </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HrZ-cJ-1cu">
                                 <rect key="frame" x="0.0" y="145" width="166" height="45"/>
@@ -207,7 +210,6 @@
                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="washingtonPostArticle:" destination="8SQ-J6-Olf" eventType="touchUpInside" id="eBg-QZ-msM"/>
                                     <action selector="washingtonPostArticleButton:" destination="8SQ-J6-Olf" eventType="touchUpInside" id="VlB-qA-DIy"/>
                                 </connections>
                             </button>
@@ -256,6 +258,9 @@
                         <outletCollection property="SocialInfo" destination="Nrg-07-RkU" collectionClass="NSMutableArray" id="A4h-OP-IsV"/>
                         <outletCollection property="SocialInfo" destination="RrS-bw-BhH" collectionClass="NSMutableArray" id="Nss-bY-7IW"/>
                         <outletCollection property="SocialInfo" destination="wFP-HM-94Z" collectionClass="NSMutableArray" id="Igq-HE-wC7"/>
+                        <outletCollection property="NewsInfo" destination="aDr-Aw-sMR" collectionClass="NSMutableArray" id="41i-Az-0AS"/>
+                        <outletCollection property="NewsInfo" destination="p9N-mQ-GMX" collectionClass="NSMutableArray" id="zzB-ma-MDw"/>
+                        <outletCollection property="NewsInfo" destination="Ep7-HB-8sS" collectionClass="NSMutableArray" id="kI1-1b-soI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8N1-HD-GLn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -329,12 +334,6 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lebaneseflag" translatesAutoresizingMaskIntoConstraints="NO" id="wtX-Ry-D8x">
                                 <rect key="frame" x="152" y="45" width="111" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
                             </imageView>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R81-xt-pvG">
                                 <rect key="frame" x="249" y="663" width="0.0" height="0.0"/>
@@ -496,7 +495,7 @@
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CKX-hO-tar">
                                 <rect key="frame" x="25" y="340" width="205" height="191"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">This explosion has displaced thousands of Lebanese citizens. Currently, there are 300,000 (15% of the population) people reported as displaced</string>
+                                <string key="text">This explosion has displaced thousands of Lebanese citizens. Currently, there are 300,000 (15% of the population) people reported as displaced.</string>
                                 <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -521,7 +520,6 @@
                         <outlet property="spreadButton1" destination="TBm-Iz-dra" id="ZFw-79-6iO"/>
                         <outletCollection property="BeirutInfo" destination="rnZ-1Z-UDn" collectionClass="NSMutableArray" id="zRv-nP-RbM"/>
                         <outletCollection property="AftermathInfo" destination="Hf3-I4-ZxM" collectionClass="NSMutableArray" id="QrQ-fX-zvo"/>
-                        <outletCollection property="LebanonInfo" destination="R81-xt-pvG" collectionClass="NSMutableArray" id="W1f-gg-sOT"/>
                         <outletCollection property="BeirutPics" destination="Iye-lH-7R5" collectionClass="NSMutableArray" id="rAh-gE-uqa"/>
                         <outletCollection property="AftermathPics" destination="Bzk-5h-FyJ" collectionClass="NSMutableArray" id="8iZ-Q4-Lgt"/>
                         <outletCollection property="BeirutPics" destination="9Rg-Kj-eqf" collectionClass="NSMutableArray" id="Cbh-bt-SNm"/>
@@ -694,9 +692,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="lC5-8p-ReJ"/>
+        <segue reference="3QT-vP-EjQ"/>
         <segue reference="H2k-Lo-mWX"/>
-        <segue reference="Ge3-aD-9ug"/>
+        <segue reference="izI-Av-NH6"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="EfPQVRTWoAAKB3X" width="1024" height="560"/>
